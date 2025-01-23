@@ -41,3 +41,6 @@ False Negative (FN): 공격 데이터를 정상으로 예측한 경우 (2)
 ![image](https://github.com/user-attachments/assets/2f1ec06a-c44a-4a27-8939-38ecbf2b2994)
 
 
+
+![image](https://github.com/user-attachments/assets/ca5cc534-430c-42d0-8d99-0d80fde63837)
+
