@@ -41,19 +41,3 @@ False Negative (FN): 공격 데이터를 정상으로 예측한 경우 (2)
 ![image](https://github.com/user-attachments/assets/2f1ec06a-c44a-4a27-8939-38ecbf2b2994)
 
 
-```python
-from sklearn.preprocessing import MinMaxScaler
-
-# 데이터 정규화 (MinMax Scaling)
-scaler = MinMaxScaler()
-features = ['hpos_drift_rate', 'vpos_drift_rate', 'hspd']
-final_df[features] = scaler.fit_transform(final_df[features])
-
-
-##결과
-모델 정확도: 99.85%
-Confusion Matrix:
-True Positive (TP): 정상 데이터가 공격으로 잘못 분류된 경우 (1345)
-False Positive (FP): 정상 데이터를 공격으로 예측한 경우 (6)
-True Negative (TN): 정상 데이터를 정상으로 예측한 경우 (0)
-False Negative (FN): 공격 데이터를 정상으로 예측한 경우 (2)
